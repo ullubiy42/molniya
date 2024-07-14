@@ -150,7 +150,7 @@ if (key.startsWith('vless://') || key.startsWith('macos://') || key.startsWith('
         key = 'v2rayng://install-config?url=' + key;
     } else {
         key += '#' + name;
-        key = 'v2raytun://import/' + key;
+        key = 'streisand://import/' + key;
     }
 }
 var redirectUrl = key;
